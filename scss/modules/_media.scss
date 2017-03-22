@@ -1,0 +1,29 @@
+@media screen and (max-width: 746px) {
+  section {
+    height: 100%;
+  }
+  .playerNum {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .triangle.triangle1, .triangle.triangle2 ,.triangle.triangle3 ,.triangle.triangle4 {
+    position: static;
+    height: 180px;
+    width: 360px;
+    background-color: #00B4CC;
+    display: block;
+	border: 0;
+    margin: 10px auto;
+  }
+
+  .triangle.rectangle {
+    background-color: #00DFFC;
+    position: static;
+    margin: 10px auto;
+  }
+  
+  .number{
+    display: none;
+  }
+}
