@@ -159,3 +159,65 @@ a {
   }
 } 
 
+
+@media screen and (max-width: 635px) {
+  section {
+    padding-top: 50px;
+  }
+  .name.hidden {
+    width: 400px;
+    font-size: 65px;
+  }
+  header {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  section {
+    padding-top: 50px;
+  }
+  .name.hidden {
+    width: 300px;
+    font-size: 55px;
+  }
+  header {
+    font-size: 15px;
+  }
+  .triangle.triangle1, .triangle.triangle2 ,.triangle.triangle3 ,.triangle.triangle4 {
+    position: static;
+    height: 150px;
+    width: 300px;
+    background-color: #00B4CC;
+    display: block;
+	border: 0;
+    margin: 10px auto;
+  }
+  .triangle.rectangle {
+    background-color: #00DFFC;
+    position: static;
+    margin: 10px auto;
+    height: 150px;
+    width: 300px;
+    line-height: 150px;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  header {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  section {
+    padding-top: 50px;
+  }
+  header {
+    font-size: 12px;
+  }
+  .name.hidden {
+    width: 290px;
+    font-size: 50px;
+  }
+}
